@@ -17,6 +17,7 @@ Each cell can contain (```class CellContent```):
 - OBSTACLE
 - GOLD
 - PIT
+
 The simulation finishes if the agent reaches the gold, falls into a pit, or after h steps.
 
 ### Rewards
