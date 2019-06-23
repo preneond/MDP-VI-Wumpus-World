@@ -1,8 +1,8 @@
 ## MDP-VI-Wumpus-World
-MDP Value Iteration applied in Wumpus World to help robot Emil find its way to the pot(s) of gold in a world filled with deadly pits.
+MDP Value Iteration applied in Wumpus World to help the robot find its way to the pot(s) of gold in a world filled with deadly pits.
 
 ### Environment
-Robot Emil moves in grid world with 4 possible actions that have stochastic effects. Gold, pits and wumpus are terminal states. Reaching gold gives agent large positive utility while falling into a pit or encountering Wumpus gives agent large negative utility. Agent also gets small penalty for each move.
+Robot moves in grid world with 4 possible actions that have stochastic effects. Gold, pits and wumpus are terminal states. Reaching gold gives agent large positive utility while falling into a pit or encountering Wumpus gives agent large negative utility. Agent also gets small penalty for each move.
 
 Robot can execute following actions with stochastic effects (```class Action```):
 - NORTH – Actual effect: 80% NORTH, 10% EAST, 10% WEST
